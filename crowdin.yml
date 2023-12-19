@@ -1,0 +1,9 @@
+files:
+  - source: episodes/*.md
+    translation: episodes/%original_file_name%
+  - source: instructors/*.md
+    translation: instructors/%original_file_name%
+  - source: learners/*.md
+    translation: learners/%original_file_name%
+  - source: index.md
+    translation: '%original_file_name%'
